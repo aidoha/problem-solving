@@ -1,6 +1,6 @@
 const judgeCircle = function (moves) {
-    let xAxis = [0, 0, -1, +1];
-    let yAxis = [+1, -1, 0, 0];
+    let yAxis = [0, 0, -1, +1];
+    let xAxis = [+1, -1, 0, 0];
     let x = 0, y = 0;
     for (let i = 0; i < moves.length; i++) {
         if (moves[i] === 'R') {
@@ -11,11 +11,11 @@ const judgeCircle = function (moves) {
             x += xAxis[1];
             y += yAxis[1];
         }
-        if (moves[i] === 'R') {
+        if (moves[i] === 'D') {
             x += xAxis[2];
             y += yAxis[2];
         }
-        if (moves[i] === 'R') {
+        if (moves[i] === 'U') {
             x += xAxis[3];
             y += yAxis[3];
         }
