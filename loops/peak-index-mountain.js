@@ -11,3 +11,4 @@ const peakIndexInMountainArray = (arr) => {
 
 peakIndexInMountainArray([24, 69, 100, 99, 79, 78, 67, 36, 26, 19])
 // [1, 3, 5, 8, 8, 10, 5, 16]
+// [2, 5, 6, 3, 11]
